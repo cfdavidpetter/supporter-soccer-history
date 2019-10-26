@@ -2,7 +2,9 @@
     <div class="row box">
         <div class="back" style="background-image: url('https://upload.wikimedia.org/wikipedia/pt/9/97/Tabajara_Futebol_Clube.png')"></div>
         <div class="col-md-auto">
-            <b-img class="img-supp" v-bind="mainProps" src="https://img.olhardigital.com.br/uploads/acervo_imagens/2014/12/r16x9/20141204130826_1200_675_-_perfil_facebook.jpg" rounded="circle" style="box-shadow: 0 0 4px 6px #bba929;"></b-img>
+            <div class="div-img-supp">
+                <b-img class="img-supp" v-bind="mainProps" src="https://img.olhardigital.com.br/uploads/acervo_imagens/2014/12/r16x9/20141204130826_1200_675_-_perfil_facebook.jpg" rounded="circle" style="box-shadow: 0 0 4px 6px #bba929;"></b-img>
+            </div>
         </div>
         <div class="col description">
             <p class="text-left h3">Pedro Juliano Silva</p>
@@ -47,14 +49,24 @@ export default {
     100% { opacity: 1; }
 }
 
+@keyframes itens-top {
+    0% { margin-top: -250px; }
+    100% { margin-top: 20px; }
+}
+
+.div-img-supp {
+    min-height: 165px;
+}
+
 .img-supp {
+    position: relative;
     margin: 20px;
     width: 125px;
     height: 125px;
     object-fit: cover;
     object-position: center;
 
-    animation: itens-opacity 3s ease-in-out;
+    animation: itens-top 1.5s ease-in-out;
 }
 
 .description {
