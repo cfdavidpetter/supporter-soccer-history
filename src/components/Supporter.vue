@@ -7,6 +7,7 @@
             </div>
         </div>
         <div class="col description">
+            <span class="d-none d-md-block padd-top"></span>
             <p class="text-left h3">Pedro Juliano Silva</p>
             <p class="text-left ">
                <i class="far fa-address-card"></i>&nbsp;<b>Category:</b> Bronze <br>
@@ -69,8 +70,12 @@ export default {
     animation: itens-top 1.5s ease-in-out;
 }
 
+.padd-top {
+    height: 24px;
+}
+
 .description {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-right: 20px;
     padding-bottom: 0px;
     padding-left: 20px;

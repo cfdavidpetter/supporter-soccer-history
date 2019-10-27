@@ -4,17 +4,22 @@
       <div class="col-12">
         <Home msg="Welcome to Your Vue.js App"/>
       </div>
+      <div class="col-12 clear">
+        <Footer />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Home from './components/Home.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    Home
+    Home,
+    Footer
   }
 }
 </script>
@@ -41,5 +46,10 @@ html, body{
 .box {
   border: 1px solid rgba(0, 0, 0, 0.125);
   background-color: #fff;
+}
+
+.clear {
+  margin: 0px !important;
+  padding: 0px !important;
 }
 </style>
