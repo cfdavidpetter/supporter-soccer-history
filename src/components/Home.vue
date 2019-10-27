@@ -6,7 +6,7 @@
     <div class="col-12">
       {{msg}}
     </div>
-    <div class="col-12">
+    <div class="col-12 clear">
       <Footer />
     </div>
   </div>
@@ -30,4 +30,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.clear {
+  margin: 0px;
+  padding: 0px;
+}
 </style>
