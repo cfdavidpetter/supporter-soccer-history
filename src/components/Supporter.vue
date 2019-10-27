@@ -9,7 +9,7 @@
         <div class="col description">
             <span class="d-none d-md-block padd-top"></span>
             <p class="text-left h3">Pedro Juliano Silva</p>
-            <p class="text-left ">
+            <p class="text-left">
                <i class="far fa-address-card"></i>&nbsp;<b>Category:</b> Bronze <br>
                <i class="fas fa-medal"></i>&nbsp;<b>Status:</b> Active
             </p>

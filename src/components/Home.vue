@@ -4,21 +4,20 @@
       <Supporter />
     </div>
     <div class="col-12">
-      {{msg}}
+      <Timeline />
     </div>
   </div>
 </template>
 
 <script>
 import Supporter from './Supporter.vue'
+import Timeline from './Timeline.vue'
 
 export default {
   name: 'Home',
   components: {
     Supporter,
-  },
-  props: {
-    msg: String
+    Timeline
   }
 }
 </script>

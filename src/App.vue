@@ -2,9 +2,9 @@
   <div id="app" class="container">
     <div class="row justify-content-md-center">
       <div class="col-12">
-        <Home msg="Welcome to Your Vue.js App"/>
+        <Home />
       </div>
-      <div class="col-12 clear">
+      <div class="col-12 clear div-footer">
         <Footer />
       </div>
     </div>
@@ -51,5 +51,9 @@ html, body{
 .clear {
   margin: 0px !important;
   padding: 0px !important;
+}
+
+.div-footer {
+  height: 60px;
 }
 </style>
