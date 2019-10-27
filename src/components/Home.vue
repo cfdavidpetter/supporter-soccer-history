@@ -6,16 +6,21 @@
     <div class="col-12">
       {{msg}}
     </div>
+    <div class="col-12">
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
 import Supporter from './Supporter.vue'
+import Footer from './Footer.vue'
 
 export default {
   name: 'Home',
   components: {
-    Supporter
+    Supporter,
+    Footer
   },
   props: {
     msg: String
