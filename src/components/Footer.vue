@@ -1,11 +1,13 @@
 <template>
-  <div class="row fotter clear">
-    <div class="col-12 clear">
-      <b-button-group class="clear" size="lg">
-        <b-button>Left</b-button>
-        <b-button>Middle</b-button>
-        <b-button>Right</b-button>
-      </b-button-group>
+  <div class="container fotter clear">
+    <div class="row clear">
+      <div class="col-12 clear">
+        <b-button-group class="clear" size="lg">
+          <b-button><i class="fas fa-user"></i> User</b-button>
+          <b-button><i class="fas fa-list"></i> Historic</b-button>
+          <b-button><i class="fas fa-search"></i> Search</b-button>
+        </b-button-group>
+      </div>
     </div>
   </div>
 </template>
