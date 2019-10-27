@@ -8,7 +8,7 @@
       <div class="col-9 card-description">
         <p class="text-left">
           <b>Status:</b> Active<br>
-          <b>Withdrawal:</b> 03/18/2019<br>
+          <b>Send:</b> 03/18/2019<br>
         </p>
       </div>
     </div>
