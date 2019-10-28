@@ -4,7 +4,7 @@
       <Supporter />
     </div>
     <div class="col-12 clear">
-      <div class="card" v-for="historic in historics" v-bind:key="historic.id">
+      <div class="card" v-for="historic in historical" v-bind:key="historic.id">
         <blockquote class="blockquote text-left">
           <p class="mb-0">{{historic.text}}</p>
           <footer class="blockquote-footer">{{historic.author}} in <cite :title="historic.date">{{historic.date}}</cite></footer>
@@ -24,7 +24,7 @@ export default {
   },
   data: function () {
     return {
-      historics: [
+      historical: [
         {
           text: 'Plan change.',
           author: 'Pedro Carlos',
