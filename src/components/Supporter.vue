@@ -45,16 +45,6 @@ export default {
     margin-top: 10px;
 }
 
-@keyframes itens-opacity {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-@keyframes itens-top {
-    0% { margin-top: -250px; }
-    100% { margin-top: 20px; }
-}
-
 .div-img-supp {
     min-height: 165px;
 }
@@ -66,8 +56,6 @@ export default {
     height: 125px;
     object-fit: cover;
     object-position: center;
-
-    animation: itens-top 1.5s ease-in-out;
 }
 
 .padd-top {
@@ -79,7 +67,5 @@ export default {
     padding-right: 20px;
     padding-bottom: 0px;
     padding-left: 20px;
-
-    animation: itens-opacity 3s ease-in-out;
 }
 </style>

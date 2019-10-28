@@ -2,7 +2,7 @@
   <div id="app" class="container">
     <div class="row justify-content-md-center">
       <div class="col-12">
-        <Home />
+        <router-view/>
       </div>
       <div class="col-12 clear div-footer">
         <Footer />
@@ -12,13 +12,11 @@
 </template>
 
 <script>
-import Home from './components/Home.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    Home,
     Footer
   }
 }

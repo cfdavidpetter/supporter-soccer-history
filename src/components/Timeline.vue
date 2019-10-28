@@ -64,8 +64,6 @@ export default {
       }
     }
   }
-
-  //clickCard
 }
 </script>
 
